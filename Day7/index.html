@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Panel</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <i>🎨</i> Dashboard
+            </div>
+            <div class="sidebar-item">
+                <i>👤</i> Profile
+            </div>
+            <div class="sidebar-item">
+                <i>🔔</i> Notifications
+            </div>
+            <div class="sidebar-item">
+                <i>💬</i> Messages
+            </div>
+            <div class="sidebar-item">
+                <i>⚙️</i> Settings
+            </div>
+        </div>
+        <div class="notification-panel">
+            <div class="panel-header">
+                <div class="menu-icon" id="menu-btn">
+                    <span></span>
+                    <span></span>
+                </div>
+                <h2 class="header-title">Notifications</h2>
+                <div class="search-container">
+                    <input type="text" id="search-bar" class="search-bar" placeholder="Search ...">
+                    <i id="search-icon" class="search-icon">🔍</i>
+                </div>
+            </div>
+            <div class="notifications">
+                <div class="notification">
+                    <div class="timeline"></div>
+                    <div class="outer-circle"></div>
+                    <div class="inner-circle"></div>
+                    <div class="content">
+                        <span class="time">9:24 AM</span>
+                        <p><strong>John Walker</strong> posted a photo on your wall.</p>
+                    </div>
+                </div>
+                <div class="notification">
+                    <div class="timeline"></div>
+                    <div class="outer-circle"></div>
+                    <div class="inner-circle"></div>
+                    <div class="content">
+                        <span class="time">8:19 AM</span>
+                        <p><strong>Alice Parker</strong> commented on your last post.</p>
+                    </div>
+                </div>
+                <div class="notification">
+                    <div class="timeline"></div>
+                    <div class="outer-circle"></div>
+                    <div class="inner-circle"></div>
+                    <div class="content">
+                        <span class="time">Yesterday</span>
+                        <p><strong>Luke Wayne</strong> added you as a friend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
